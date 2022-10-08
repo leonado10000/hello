@@ -1,0 +1,26 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block head %}
+    create new page
+{% endblock %}
+
+{% block body %}
+    <style>
+        .heading{
+            width: 200px;
+        }
+        .content{
+            width: 90%;
+            height: 500px;
+        }
+    </style>
+    <div><h1>Create a New Page</h1></div>
+    <div>
+        <form action="{% url 'new_page' %}" method="post">
+            {% csrf_token %}
+            <input id="heading" type="text" name="heading">
+            <input id="content" type="text" name="content">
+            <input type="submit" placeholder="Save">
+        </form>
+    </div>
+{% endblock %}
