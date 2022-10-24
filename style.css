@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+.a{
+    border-radius: 10px;
+    margin: 100px;
+    text-align: center;
+    height: 200px;
+    width: max-content;
+}
+.ab{
+    margin: 10px;
+    text-align: right;
+    height: 200px;
+    width: 100%;
+}
+.b{
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+#name,#h1,#hello{
+    color: aqua;
+    font-size: 100px;
+    font-style: italic;
+}
+.bt{
+    align-self: ;
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    font-style: italic;
+}
+#inp{
+    height: 60px;
+    width: 300px;
+    margin: 15px;
+}
